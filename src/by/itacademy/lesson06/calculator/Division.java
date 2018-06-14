@@ -1,10 +1,10 @@
 package by.itacademy.lesson06.calculator;
 
 import java.util.logging.Level;
-
-import static by.itacademy.lesson06.calculator.CalcMenu.LOGGER;
+import java.util.logging.Logger;
 
 public class Division implements Operable {
+    private final static Logger LOGGER = Logger.getLogger(Division.class.getName());
     @Override
     public double operation(double num1, double num2) {
         if (num2 == 0) {

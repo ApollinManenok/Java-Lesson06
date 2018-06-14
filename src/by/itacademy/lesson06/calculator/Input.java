@@ -3,10 +3,10 @@ package by.itacademy.lesson06.calculator;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.logging.Level;
-
-import static by.itacademy.lesson06.calculator.CalcMenu.LOGGER;
+import java.util.logging.Logger;
 
 public class Input {
+    private final static Logger LOGGER = Logger.getLogger(Input.class.getName());
     static double doubleEnter() { //IDEA предложила отказаться в классе и методах от public и final
         double result;
         Scanner scan = new Scanner(System.in);

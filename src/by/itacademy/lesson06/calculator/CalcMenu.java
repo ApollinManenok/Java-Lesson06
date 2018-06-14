@@ -4,7 +4,7 @@ import java.util.logging.*;
 import java.util.concurrent.TimeUnit;
 
 public class CalcMenu implements Menu {
-    final static Logger LOGGER = Logger.getLogger(CalcMenu.class.getName());//  for LOGGER usage in Input and Division
+    private final static Logger LOGGER = Logger.getLogger(CalcMenu.class.getName());//  for LOGGER usage in Input and Division
     private Operable[] operations;
     //private int sleepSec = 5; IDEA suggest to replace it with local variable, but then it would be harder to change waiting seconds
 
